@@ -10,13 +10,13 @@ public class PersonalDetails {
         boolean EligibleForVote = true;
         String grade = "b";
 
-        System.out.println(name);
-        System.out.println("SURName:"+surname);
+
+        System.out.println("NAME:"+name+" "+surname);
         System.out.println("Address:"+address);
         System.out.println("Mobile NO:"+mobile);
         System.out.println("AGE:"+age);
         System.out.println("Security Code:"+SecurityCode);
-        System.out.println("Is Eligible for Vote: "+EligibleForVote);
+        System.out.println("Eligible for Vote: "+EligibleForVote);
         System.out.println("Grade:"+grade);
     }
 
