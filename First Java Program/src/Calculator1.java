@@ -2,13 +2,13 @@ public class Calculator1 {
 
         static int a = 10;
         static int b = 5;
-        static int total;
+        static int total = a+b;
         static int subtraction;
         static int multiplication;
         static int division;
         public static void main (String[] args){
 
-            total = a+b;
+            //total = a+b;
             subtraction = a-b;
             multiplication = a*b;
             division = a/b;
