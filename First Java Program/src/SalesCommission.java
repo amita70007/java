@@ -2,7 +2,7 @@ public class SalesCommission {
     public static void main(String[] args) {
         int saleid = 05;
         String sellerName = "Thomas";
-        double saleAmount = 2000;
+        double saleAmount = 50000;
         double basicSalary = 20000;
 
         if (saleAmount>=50000){

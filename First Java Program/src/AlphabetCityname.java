@@ -3,7 +3,7 @@ public class AlphabetCityname {
     public static void main(String[] args) {
 
 
-    String alphaBet = "f"; // please enter input from alphabet a-f
+    String alphaBet = "z"; // please enter input from alphabet a-f
 
         if (alphaBet == "a"){
             System.out.println("ahmedabad");

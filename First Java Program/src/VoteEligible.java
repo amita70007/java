@@ -2,7 +2,7 @@ public class VoteEligible {
 
     public static void main(String[] args)
     {
-        int age =  21; // enter your age
+        int age =  17; // enter your age
 
         if (age>=18){
 
