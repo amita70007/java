@@ -245,6 +245,7 @@ public class HomeWork1 {
         int sum = 0;
         for (int i = first; i <= second; ++i) {
             if (i % 9 == 0) {
+                System.out.println(i);
                 sum += i;
                 }
             }
