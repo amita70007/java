@@ -43,7 +43,9 @@ public class AddToCart extends Utils {
             }
 
         }
-        if (!result2){
+        //checking out based on above for loop for variable result2.
+        // based on value of result2 we can assess if add to cart button present in all element
+        /*if (!result2){
             System.out.println("*****************************************");
             System.out.println("YES! All product has Add to Cart Button");
             System.out.println("*****************************************");
@@ -52,7 +54,8 @@ public class AddToCart extends Utils {
             System.out.println("*****************************************");
             System.out.println("NO! All products do not have Add to Cart Button");
             System.out.println("*****************************************");
-        }
+        }*/
+        // if result2 is false then test pass or result2 is true then test fail.
         Assert.assertFalse(result2);
     }
 
