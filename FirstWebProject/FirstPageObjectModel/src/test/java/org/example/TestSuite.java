@@ -2,6 +2,8 @@ package org.example;
 
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class TestSuite extends BaseTest{
     HomePage homepage = new HomePage();
     RegisterPage register = new RegisterPage();
@@ -12,7 +14,7 @@ public class TestSuite extends BaseTest{
 
 
     @Test
-    public void user_should_be_able_to_register_successfully() throws InterruptedException {
+    public void user_should_be_able_to_register_successfully() throws InterruptedException, IOException {
         homepage.clickRegister();
         register.fillRegistrationForm();
         register.registrationSuccessfull();
